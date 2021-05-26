@@ -1,0 +1,28 @@
+fieldset {
+	padding: 0.5em;
+	margin: 0.8em;
+	border-radius: 0.3em;
+}
+
+table {
+	width: 100%;
+	border-collapse: "collapse";
+}
+
+legend {
+	background: #868e96;
+	color: #fff;
+	padding: 4px 8px;
+	text-transform: uppercase;
+}
+
+tbody {
+	text-align: left;
+}
+
+th,
+td {
+	padding: 8px;
+	text-align: left;
+	border-top: 1px solid #ddd;
+}
