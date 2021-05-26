@@ -9,8 +9,8 @@ class TableWithLegend extends React.Component {
 				<table>
 					<tbody>
 						{this.props.tableItems.map((el, i) =>
-							<React.Fragment>
-								<tr key={i}>
+							<React.Fragment key={i}>
+								<tr>
 									<th><strong>{el.name}</strong></th>
 									<td><div>{el.info}</div></td>
 								</tr>

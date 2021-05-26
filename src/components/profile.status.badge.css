@@ -1,0 +1,21 @@
+.badge_link {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid #62bfff;
+	border-radius: 0.3em;
+	margin: 0 3px 0 0;
+	padding: 0.3rem 0.6rem;
+	line-height: 1;
+	font-size: 0.9rem;
+	color: #0077c8;
+	text-decoration: none;
+}
+
+.link_name {
+	margin: 0 0.2em;
+}
+
+.link_name:hover{
+	color: #024d80;
+}

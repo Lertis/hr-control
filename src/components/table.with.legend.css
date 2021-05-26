@@ -1,12 +1,12 @@
 fieldset {
-	padding: 0.5em;
+	border: 1px solid #ced4da;
+	padding: 35px 20px 20px;
 	margin: 0.8em;
-	border-radius: 0.3em;
 }
 
 table {
 	width: 100%;
-	border-collapse: "collapse";
+	border-collapse: collapse;
 }
 
 legend {
@@ -20,9 +20,13 @@ tbody {
 	text-align: left;
 }
 
+th {
+	padding: 0.6rem;
+}
+
 th,
 td {
-	padding: 8px;
+	padding: 0.6rem;
 	text-align: left;
 	border-top: 1px solid #ddd;
 }
